@@ -1,0 +1,150 @@
+body {
+	font-family: Georgia;
+	background-image: url(neutralbg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin: 0;
+	padding:0;
+}
+
+#wrap {width: 80%;
+	border: 10px solid black;
+	margin: 0 auto;
+}
+
+body#winter {
+	background-image: url(winterbg.jpg);
+}
+#winter section{
+	background-color: silver;
+}
+header img {width: 60%}
+#summer header {
+	background-color: #edea8a;
+}
+
+body#summer {
+	background-image: url(summerbg.jpg);
+}
+
+#summer section {
+	background-color: #edea8a;
+}
+
+#spring body {
+	background-color: url(springbg.jpg);
+}
+
+#spring header {
+	background-color: pink;
+}
+
+body#fall {
+	background-image: url(gradiantbg.jpg);
+}
+
+#fall header {
+	background-color: black;
+}
+
+#fall section
+	background-color: #5e4138;
+}
+
+header img {width: 60%} 
+
+header { 
+	background-color: #cccccc;
+	text-align: center;
+	}
+
+nav {
+	background-color: black;
+	padding: 20px;
+	text-align: center;
+	}
+
+nav li {
+	display:inline;
+}
+
+nav ul {margin:0;
+		padding:0;
+}
+
+nav a {
+	color:white;
+	padding: 20px;
+	margin-right: 10px;
+	font-family: Georgia;
+	font-size: 30px;
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: pink;
+	text-decoration: underline;
+}
+
+section {
+	background-color: gray;
+	padding: 30px;
+	overflow: auto;
+}
+
+
+
+h1 {
+	color: Black;
+	font-size: 30px;
+	text-decoration: bold;
+	
+}
+
+div.box {
+	width:200px;
+	height: 200px;
+	background-color: orange;
+	border: 10px solid black;
+	padding: 10px;
+	margin: 10px;
+}
+
+footer {
+	background-color: Black;
+	padding: 10px;
+	text-align: center;
+	color: white;
+}
+.officer {
+	width: 20%;
+	float: right;
+	margin: 10 px;
+	padding: 10px;
+	border: 10 px solid black;
+}
+.winter {
+	width: 40%;
+	float: right;
+	margin: 10px;
+	border: 10px solid black;
+}
+.spring {
+	width: 30%;
+	float: right;
+	margin: 10px;
+	border: 10px solid pink;
+}
+
+.summer {
+	width: 30%;
+	float: right;
+	margin: 10px;
+	border: 10px solid pink;
+}
+.fall{
+	width: 30%;
+	float: right;
+	margin: 10px;
+	border: 10px solid orange
+}
