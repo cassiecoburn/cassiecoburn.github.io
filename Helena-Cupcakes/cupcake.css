@@ -1,0 +1,171 @@
+body {
+	background-color: CCCCCC;
+	background-size: cover;
+	margin: 0;
+	padding: 0;
+}
+
+#cupcake {
+	width: 80%;
+	border: 10px;
+	margin: 0 auto;
+}
+
+#side {
+	width: 20%;
+	float: left;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  font-family: Verdana, Geneva, sans-serif;
+  background-color: 0EC8C7;
+  text-align: center;
+  color: white;
+  padding: 5px;
+  margin: 0;
+}
+
+.topnav li {
+	display: inline;
+	width: 196px;
+	height: 50px ;
+	text-align: center;
+	background-color: #0EC8C7;
+	padding: 0;
+	margin: 0;
+}
+
+header img {
+			width: 100%;
+			}
+
+/* Style the topnav links */
+.topnav a {
+  color: white;
+  text-align: center;
+  border: 0 ;
+  padding: 25px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  color: teal;
+}
+
+#main {
+	width: 76%;
+	float: right;
+	background-color: white;
+	padding: 2%;
+	font-family: Verdana, Geneva, sans-serif;
+	overflow: auto;
+}
+
+#main img {
+	float: right;
+	width: 40%;
+}
+
+#main h1 {
+	font-size: xx-large;
+}
+
+#side {
+	width: 20%;
+	height: 100%;
+	float: left;
+	background-color: red;
+	text-decoration: none;
+}
+
+#side li {
+	display: block;
+	font-family: Verdana, Geneva, sans-serif;
+	padding: 10px;
+	color: white;
+	text-decoration: none;
+}
+
+#side a {
+    display: block;
+    width: 100%;
+padding: 10px;
+text-decoration: none;
+color: white;
+  }
+  
+#side ul{
+  margin:0;
+  padding:0;
+  text-decoration: none;}
+  
+section {
+	background-color: white;
+	overflow: hidden;
+}
+
+footer {
+	background-color: #0EC8C7;
+	padding: 10px;
+	border: 0;
+	text-align: center;
+	color: black;
+	overflow: hidden;
+	font-size: 11px;
+	font-family: Verdana, Geneva, sans-serif;
+	font-weight: bold;
+	margin: 0px;
+}
+
+footer a {
+	display: inline;
+}
+footer ul {
+	font-weight: normal;
+	color: black;
+	display: inline;
+}
+
+footer li {
+	color: black;
+	padding: 0;
+	margin: 0px;
+	display: inline;
+}
+
+p.normal {
+  font-weight: normal;
+}
+
+p.thick {
+  font-weight: bold;
+}
+
+p.thick,.normal {
+	padding: 0px;
+	margin: 0px;
+}
+
+ 
+ /* On screens that are 600px wide or less, make the menu links stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .topnav a {
+    display: block;
+    width: 100%;
+	padding: 5px;
+  }
+  .topnav ul{
+  margin:0;
+  padding:0;}
+ 
+  #main, #side {
+ float:none;
+ width: 100%;
+  }
+ 
+}
+
+
+  
